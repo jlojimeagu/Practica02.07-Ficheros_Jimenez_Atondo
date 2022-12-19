@@ -1,4 +1,9 @@
 def tabla_multiplicar(n,m):
+    """
+    :param n:el numero del fichero y el multiplo.
+    :param m: es el que multiplica 'n'.
+    :return: retorna el resultado.
+    """
     nombre_fichero = 'tabla-' + str(n) + '.txt'
     try:
         with open(nombre_fichero, 'r') as file:
